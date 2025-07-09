@@ -1,0 +1,145 @@
+i{
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.container{
+    margin-bottom: 10px !important;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+}
+.navbar-box{
+    font-size: 14px;
+    padding-left: 100px;
+}
+.vertical-line{
+    width: 2px;
+    background: lightgrey;
+    height: 22px;
+}
+.mid-inside{
+    width: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    color: #fff;
+    font-size: 12px;    
+}
+.searching-row{
+    background: #F6AB4A;
+}
+.search-box{
+    width: 40%;
+}
+.search-box h6{
+    font-size: 14px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #999999;
+    font-size: 14px;
+    
+}
+.searching-row span{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+.evolve-img-box{
+    background: url(../images/back.png);
+}
+.btn{
+    background: #F6AB4A;
+    max-width: 70%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dog-img-box{
+    height: 300px;
+    background: url(../images/dog.png);
+    color: dog-img-box;
+}
+.dog-img-box h5{
+    font-size: 24px;
+    margin-left: 150px;
+}
+.logos-box-bottom {
+    background: url(../images/logosbottomimg.png);
+}
+.star-row h6, h5{
+    color: #362526;
+}
+.card-content button{
+    background: none;
+    font-size: 10px;
+}
+.right-tik{
+    background: #009900;
+    color: white;
+}
+.card{
+    border: none;
+}
+.flash-sale-rows{
+    width: 90%;
+    padding: 10px;
+    background: #FFFFFF11;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.recently-row img{
+    width: 37px;
+    height: 37px;
+}
+.buttn{
+    background: rgba(0, 0, 0, 0.6);
+}
+.foot{
+    background: url(../images/footbackground.png);
+    background-size: cover;
+    background-color: #E9E7E8;
+}
+
+
+/* About page Css starts from here */
+
+.best-experiance-box{
+    padding: 50px 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.building-img-box{
+    background: url(../images/building.png);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
